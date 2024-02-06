@@ -1,9 +1,10 @@
 import React from "react";
 import Calcualtor from "./components/Calculator";
 
+
 const App=()=>{
     return(
-<div>
+<div class="body">
 <Calcualtor />
 </div>
     )

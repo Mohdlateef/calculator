@@ -37,15 +37,16 @@ const Calcualtor = () => {
   }
 
   return (
-    <div>
+    <div className="calculator">
       <div>Calcualtor</div>
       <form>
         <input type="number" onKeyUp={num1}></input>
         <input type="number" onKeyUp={num2}></input>
-        <button onClick={cal}>+</button>
+       <div className="btns"><button onClick={cal}>+</button>
         <button onClick={cal}>-</button>
         <button onClick={cal}>*</button>
         <button onClick={cal}>/</button>
+      </div>
       </form>
       <div>{Output}</div>
     </div>
